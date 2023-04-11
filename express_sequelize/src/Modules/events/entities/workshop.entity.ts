@@ -10,6 +10,7 @@ import { ModelAttributeColumnOptions } from 'sequelize';
 
 @Table({
   updatedAt: false,
+  tableName: 'workshop'
 })
 export default class Workshop extends Model {
   @AutoIncrement
